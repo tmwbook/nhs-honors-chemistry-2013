@@ -4,9 +4,9 @@ Created on Dec 6, 2013
 @author: thomas
 '''
 
-import Table
+from Table import Table
 
 PROPERTIES = ['ductle', 'conductor', 'maleable', 'elasticity']
 
-class Metal(Table.Table):
+class Metal(Table):
     PROPERTIES = ['ductle', 'conductor', 'maleable', 'elasticity'] #something to stop error

@@ -4,11 +4,13 @@ Created on Dec 6, 2013
 @author: thomas
 '''
 
-import NonMetal
+from NonMetal import NonMetal
 
 class NobleGas(NonMetal):
     
     REACTION_LEVEL = 0
+
+    CHARGE = 0
 
     def __init__(self, atomicNumber, atomicMass):
         self.atomicNumber = atomicNumber
