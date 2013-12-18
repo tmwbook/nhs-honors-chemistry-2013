@@ -12,4 +12,5 @@ NUMBER_OF_ELEMENTS = 118
 class Table(object):
     NUMBER_OF_ELEMENTS = 118 #something to stop an error
 
-elementLocations = {} #Add locations of Elements in the Metal and NonMetal files
+elementLocations = {'lithium':Metal.lithium,'sodium':Metal.sodium,'potassium':Metal.potassium, 'rubidium':Metal.rubidium,
+                    'cesium':Metal.cesium} #Add locations of Elements in the Metal and NonMetal files

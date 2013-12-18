@@ -48,3 +48,9 @@ phosphorus = Pnictogen(15, 30.97376)
 arsenic = Pnictogen(33, 74.9216)
 antimony = Pnictogen(51, 121.75)
 bismuth = Pnictogen(83, 209)
+
+class NobleGas(NonMetal):
+
+    CHARGE = 0
+
+    def __init__(self,atomicNumber, stomicMass):
