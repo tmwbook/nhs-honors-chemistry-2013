@@ -6,7 +6,7 @@ Created on Dec 6, 2013
 
 PROPERTIES = ['ductile', 'conductor', 'malleable', 'elasticity']
 
-class Alkali(Metal):
+class Alkali():
 
     REACTION_LEVEL = 1
 
@@ -24,7 +24,7 @@ rubidium = Alkali(37, 85.4678)
 cesium = Alkali(55, 137.33)
 francium = Alkali(87, 223)
 
-class AlkalineEarthMetal(Metal):
+class AlkalineEarthMetal():
 
     CHARGE = -2
 
