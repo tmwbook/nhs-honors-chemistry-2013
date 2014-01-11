@@ -53,4 +53,6 @@ class NobleGas(NonMetal):
 
     CHARGE = 0
 
-    def __init__(self,atomicNumber, stomicMass):
+    def __init__(self,atomicNumber, atomicMass):
+        self.atomicNumber = atomicNumber
+        self.atomicMass = atomicMass
