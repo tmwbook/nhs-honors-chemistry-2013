@@ -56,3 +56,10 @@ class NobleGas(NonMetal):
     def __init__(self,atomicNumber, atomicMass):
         self.atomicNumber = atomicNumber
         self.atomicMass = atomicMass
+
+helium = NobleGas(2, 4.0026)
+neon = NobleGas(10,20.179)
+argon = NobleGas(18,39.948)
+krypton = NobleGas(36,83.8)
+xenon = NobleGas(54,131.29)
+radon = NobleGas(86,222)
