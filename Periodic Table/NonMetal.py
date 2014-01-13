@@ -5,9 +5,7 @@ Created on Dec 6, 2013
 '''
 PROPERTIES = ['non malleable', 'non ductile', 'insulator', 'non elasticity']
 
-from NonMetal import NonMetal
-
-class Halogen(NonMetal):
+class Halogen():
 
     CHARGE = 3
 
@@ -21,7 +19,7 @@ bromine = Halogen(35, 79.904)
 iodine = Halogen(53, 126.905)
 astatine = Halogen(85, 210)
 
-class Chalocogen(NonMetal):
+class Chalocogen():
 
     CHARGE = 3
 
@@ -35,7 +33,7 @@ selenium = Chalocogen(34, 78.96)
 tellurium = Chalocogen(52, 127.6)
 polonium = Chalocogen(84, 209)
 
-class Pnictogen(NonMetal):
+class Pnictogen():
 
     CHARGE = 3
 
@@ -49,7 +47,7 @@ arsenic = Pnictogen(33, 74.9216)
 antimony = Pnictogen(51, 121.75)
 bismuth = Pnictogen(83, 209)
 
-class NobleGas(NonMetal):
+class NobleGas():
 
     CHARGE = 0
 

@@ -23,3 +23,9 @@ elementLocations = {'lithium': Metal.lithium, 'sodium': Metal.sodium, 'potassium
                     'antimony': NonMetal.antimony, 'bismuth': NonMetal.bismuth, 'helium': NonMetal.helium, 'neon': NonMetal.neon,
                     'argon': NonMetal.argon, 'krypton': NonMetal.krypton, 'xenon': NonMetal.xenon, 'radon': NonMetal.radon}
                     #Add locations of Elements in the inner and outer transition metals
+
+elementSymbol = {'He': elementLocations['helium'], 'Li': elementLocations['lithium'],
+                 'Be': elementLocations['beryllium'], 'N': elementLocations['nitrogen'],
+                 'O': elementLocations['oxygen'], 'F': elementLocations['fluorine'], 'Ne': elementLocations['Neon'],
+                 'Na': elementLocations['sodium'], 'Mg': elementLocations['magnesium'],
+                 'P': elementLocations['phosphorus']}
