@@ -26,7 +26,7 @@ elementLocations = {'lithium': Metal.lithium, 'sodium': Metal.sodium, 'potassium
 
 elementSymbol = {'He': elementLocations['helium'], 'Li': elementLocations['lithium'],
                  'Be': elementLocations['beryllium'], 'N': elementLocations['nitrogen'],
-                 'O': elementLocations['oxygen'], 'F': elementLocations['fluorine'], 'Ne': elementLocations['Neon'],
+                 'O': elementLocations['oxygen'], 'F': elementLocations['fluorine'], 'Ne': elementLocations['neon'],
                  'Na': elementLocations['sodium'], 'Mg': elementLocations['magnesium'],
                  'P': elementLocations['phosphorus'], 'As': elementLocations['arsenic'],
                  'Sb': elementLocations['antimony'], 'Bi': elementLocations['bismuth'],

@@ -4,7 +4,7 @@ Created on Dec 6, 2013
 @author: thomas
 '''
 
-PROPERTIES = ['ductile', 'conductor', 'malleable', 'elasticity']
+PROPERTIES = ['ductile', 'conductor', 'malleable', 'elasticity', 'lustrous']
 
 class Alkali():
 
