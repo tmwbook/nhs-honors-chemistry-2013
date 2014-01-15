@@ -28,4 +28,9 @@ elementSymbol = {'He': elementLocations['helium'], 'Li': elementLocations['lithi
                  'Be': elementLocations['beryllium'], 'N': elementLocations['nitrogen'],
                  'O': elementLocations['oxygen'], 'F': elementLocations['fluorine'], 'Ne': elementLocations['Neon'],
                  'Na': elementLocations['sodium'], 'Mg': elementLocations['magnesium'],
-                 'P': elementLocations['phosphorus']}
+                 'P': elementLocations['phosphorus'], 'As': elementLocations['arsenic'],
+                 'Sb': elementLocations['antimony'], 'Bi': elementLocations['bismuth'],
+                 'F': elementLocations['fluorine'], 'Cl': elementLocations['chlorine'],
+                 'Br': elementLocations['bromine'], 'I': elementLocations['iodine'], 'At': elementLocations['astatine'],
+                 'Ne': elementLocations['neon'], 'Ar': elementLocations['argon'], 'Kr': elementLocations['krypton'],
+                 'Xe': elementLocations['xenon']}
