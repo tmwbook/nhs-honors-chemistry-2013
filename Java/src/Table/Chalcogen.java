@@ -3,7 +3,7 @@ package Table;
 /**
  * Created by Thomas on 1/29/14.
  */
-public class Chalcogen {
+public class Chalcogen extends NonMetal {
 
     public int atomicNumber;
     public double atomicMass;
