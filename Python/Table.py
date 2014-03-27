@@ -9,6 +9,7 @@ import Elements.NonMetal
 
 NUMBER_OF_ELEMENTS = 118
 
+singleElementsThatBondToSelf = ["Br", "N", "Cl", "H", "O", "F"]
 
 elementLocations = {'lithium': Elements.Metal.lithium, 'sodium': Elements.Metal.sodium,
                     'potassium': Elements.Metal.potassium, 'rubidium': Elements.Metal.rubidium,
