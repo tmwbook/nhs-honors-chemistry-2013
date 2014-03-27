@@ -20,7 +20,7 @@ elementLocations = {'lithium': Elements.Metal.lithium, 'sodium': Elements.Metal.
                     'bromine': Elements.NonMetal.bromine, 'iodine': Elements.NonMetal.iodine,
                     'astatine': Elements.NonMetal.astatine, 'oxygen': Elements.NonMetal.oxygen,
                     'sulfur': Elements.NonMetal.sulfur, 'selenium': Elements.NonMetal.selenium,
-                    'tellurium': Elements.NonMetal.tellurium,'polonium': Elements.NonMetal.polonium,
+                    'tellurium': Elements.NonMetal.tellurium, 'polonium': Elements.NonMetal.polonium,
                     'nitrogen': Elements.NonMetal.nitrogen, 'phosphorus': Elements.NonMetal.phosphorus,
                     'arsenic': Elements.NonMetal.arsenic, 'antimony': Elements.NonMetal.antimony,
                     'bismuth': Elements.NonMetal.bismuth, 'helium': Elements.NonMetal.helium,

@@ -5,6 +5,7 @@ Created on Dec 6, 2013
 '''
 PROPERTIES = ['non malleable', 'non ductile', 'insulator', 'non elasticity']
 
+
 class Halogen():
 
     CHARGE = 3
@@ -18,6 +19,7 @@ chlorine = Halogen(17, 35.453)
 bromine = Halogen(35, 79.904)
 iodine = Halogen(53, 126.905)
 astatine = Halogen(85, 210)
+
 
 class Chalocogen():
 
@@ -33,6 +35,7 @@ selenium = Chalocogen(34, 78.96)
 tellurium = Chalocogen(52, 127.6)
 polonium = Chalocogen(84, 209)
 
+
 class Pnictogen():
 
     CHARGE = 3
@@ -47,6 +50,7 @@ arsenic = Pnictogen(33, 74.9216)
 antimony = Pnictogen(51, 121.75)
 bismuth = Pnictogen(83, 209)
 
+
 class NobleGas():
 
     CHARGE = 0
@@ -56,8 +60,8 @@ class NobleGas():
         self.atomicMass = atomicMass
 
 helium = NobleGas(2, 4.0026)
-neon = NobleGas(10,20.179)
-argon = NobleGas(18,39.948)
-krypton = NobleGas(36,83.8)
-xenon = NobleGas(54,131.29)
-radon = NobleGas(86,222)
+neon = NobleGas(10, 20.179)
+argon = NobleGas(18, 39.948)
+krypton = NobleGas(36, 83.8)
+xenon = NobleGas(54, 131.29)
+radon = NobleGas(86, 222)
