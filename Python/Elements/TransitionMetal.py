@@ -5,6 +5,7 @@ Created on Jan 14, 2014
 '''
 from Metal import PROPERTIES
 
+
 class TransitionMetal():
 
     PROPERTIES = PROPERTIES

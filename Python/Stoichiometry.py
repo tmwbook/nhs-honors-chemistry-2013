@@ -27,9 +27,11 @@ def stoichiometry(step):
 def elementOrCompund():
     answer = raw_input("Is the first item an element or a compound? (e/c)")
     if answer.lower() == "e":
-        getGramsInElement()
+        gramsInElement = getGramsInElement()
+        return gramsInElement
     else:
-        calculateGramsInCompound()
+        gramsInCompound = calculateGramsInCompound()
+        return gramsInCompound
 
 
 def getGramsInElement():
@@ -49,7 +51,7 @@ def calculateGramsInCompound():
     numberOfElements = int(raw_input("How many elements are in this molecule?"))
     runningTotal = 0
     for n in range(numberOfElements):
-        element = raw_input("What is element #" + str(n + 1) + "'s symbol (case sensitive)?")
+        element = raw_input("What is element #" + str(n +1) + "'s symbol (case sensitive)?")
         amountOfElement = int(raw_input("What is the subscript of that element?"))
         runningTotal += Table.elementSymbol[element].atomicMass * amountOfElement
     return runningTotal
