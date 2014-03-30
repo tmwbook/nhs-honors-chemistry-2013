@@ -39,4 +39,8 @@ elementSymbol = {'He': elementLocations['helium'], 'Li': elementLocations['lithi
                  'F': elementLocations['fluorine'], 'Cl': elementLocations['chlorine'],
                  'Br': elementLocations['bromine'], 'I': elementLocations['iodine'], 'At': elementLocations['astatine'],
                  'Ne': elementLocations['neon'], 'Ar': elementLocations['argon'], 'Kr': elementLocations['krypton'],
-                 'Xe': elementLocations['xenon']}
+                 'Xe': elementLocations['xenon'],
+                 #transition metals
+                 'Sc': elementLocations['scandium'], 'Ti': elementLocations['titanium'],
+                 'V': elementLocations['vanadium'], 'Cr': elementLocations['chromium'],
+                 'Mn': elementLocations['manganese'], 'Fe': elementLocations['iron'],}
