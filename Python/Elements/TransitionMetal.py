@@ -44,7 +44,7 @@ iridium = TransitionMetal(77, 192.217)
 platinum = TransitionMetal(78)
 gold = TransitionMetal(79)
 mercury = TransitionMetal(80)
-
+#tits
 rutherfordium = TransitionMetal(104)
 dubnium  = TransitionMetal(105)
 seaborgium = TransitionMetal(106)
