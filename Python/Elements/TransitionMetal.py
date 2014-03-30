@@ -1,7 +1,7 @@
 '''
 Created on Jan 14, 2014
 
-@author: Thomas
+@author: Thomas, Wukong
 '''
 from Metal import PROPERTIES
 
