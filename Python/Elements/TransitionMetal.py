@@ -1,13 +1,11 @@
 '''
 Created on Jan 14, 2014
 
-@author: Thomas
+@author: Thomas, Wukong
 '''
 from Metal import PROPERTIES
-
 class TransitionMetal():
 
-    PROPERTIES = PROPERTIES
 
     def __init__(self, atomicNumber, atomicMass):
         self.atomicNumber = atomicNumber
@@ -19,7 +17,7 @@ vanadium = TransitionMetal(23, 50.9415)
 chromium = TransitionMetal(24, 51.9961)
 manganese = TransitionMetal(25, 54.938)
 iron = TransitionMetal(26, 55.845)
-cobalt = TransitionMetal(27, 58,933)
+cobalt = TransitionMetal(27, 58.933)
 nickel = TransitionMetal(28, 58.6934)
 copper = TransitionMetal(29, 63.546)
 zinc = TransitionMetal(30, 65.38)
@@ -35,7 +33,7 @@ palladium = TransitionMetal(46, 106.42)
 silver = TransitionMetal(47, 107.8682)
 cadmium = TransitionMetal(48, 112.411)
 
-hafnium = TransitionMetal(72, 178,49)
+hafnium = TransitionMetal(72, 178.49)
 tantalum = TransitionMetal(73, 180.94)
 tungsten = TransitionMetal(74, 183.84)
 rhenium = TransitionMetal(75, 186.207)
@@ -46,7 +44,7 @@ gold = TransitionMetal(79, 196.96)
 mercury = TransitionMetal(80, 200.59)
 
 rutherfordium = TransitionMetal(104, 267)
-dubnium  = TransitionMetal(105, 268)
+dubnium = TransitionMetal(105, 268)
 seaborgium = TransitionMetal(106, 271)
 bohrium = TransitionMetal(107, 272)
 hassium = TransitionMetal(108, 270)

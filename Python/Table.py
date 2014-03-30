@@ -6,12 +6,14 @@ Created on Dec 6, 2013
 
 import Elements.Metal
 import Elements.NonMetal
+import Elements.Hydrogen
+import Elements.TransitionMetal
 
 NUMBER_OF_ELEMENTS = 118
 
 singleElementsThatBondToSelf = ["Br", "N", "Cl", "H", "O", "F"]
 
-elementLocations = {'lithium': Elements.Metal.lithium, 'sodium': Elements.Metal.sodium,
+elementLocations = {'hydrogen': Elements.Hydrogen, 'lithium': Elements.Metal.lithium, 'sodium': Elements.Metal.sodium,
                     'potassium': Elements.Metal.potassium, 'rubidium': Elements.Metal.rubidium,
                     'cesium': Elements.Metal.cesium, 'francium': Elements.Metal.francium,
                     'beryllium': Elements.Metal.beryllium, 'magnesium': Elements.Metal.magnesium,
@@ -27,7 +29,29 @@ elementLocations = {'lithium': Elements.Metal.lithium, 'sodium': Elements.Metal.
                     'bismuth': Elements.NonMetal.bismuth, 'helium': Elements.NonMetal.helium,
                     'neon': Elements.NonMetal.neon, 'argon': Elements.NonMetal.argon,
                     'krypton': Elements.NonMetal.krypton, 'xenon': Elements.NonMetal.xenon,
-                    'radon': Elements.NonMetal.radon}
+                    'radon': Elements.NonMetal.radon,
+                    #Transition Metals
+                    'scandium': Elements.TransitionMetal.scandium, 'titanium': Elements.TransitionMetal.titanium,
+                    'vanadium': Elements.TransitionMetal.vanadium, 'chromium': Elements.TransitionMetal.chromium,
+                    'manganese': Elements.TransitionMetal.manganese, 'iron': Elements.TransitionMetal,
+                    'cobalt': Elements.TransitionMetal.cobalt, 'nickel': Elements.TransitionMetal.nickel,
+                    'copper': Elements.TransitionMetal.copper, 'zinc': Elements.TransitionMetal.zinc,
+                    'yttrium': Elements.TransitionMetal.yttrium, 'zirconium': Elements.TransitionMetal.zirconium,
+                    'niobium': Elements.TransitionMetal.niobium, 'molybdenum': Elements.TransitionMetal.molybdenum,
+                    'technetium': Elements.TransitionMetal.technetium, 'ruthenium': Elements.TransitionMetal.ruthenium,
+                    'rhodium': Elements.TransitionMetal.rhodium, 'palladium': Elements.TransitionMetal.palladium,
+                    'silver': Elements.TransitionMetal.silver, 'cadmium': Elements.TransitionMetal.cadmium,
+                    'hafnium': Elements.TransitionMetal.hafnium, 'tantalum': Elements.TransitionMetal.hafnium,
+                    'tungsten': Elements.TransitionMetal.tungsten, 'rhenium': Elements.TransitionMetal.rhenium,
+                    'osmium': Elements.TransitionMetal.osmium, 'iridium': Elements.TransitionMetal.iridium,
+                    'platinum': Elements.TransitionMetal.platinum, 'gold': Elements.TransitionMetal.gold,
+                    'mercury': Elements.TransitionMetal.mercury,'rutherfordium': Elements.TransitionMetal.rutherfordium,
+                    'dubnium': Elements.TransitionMetal.dubnium, 'seaborgium': Elements.TransitionMetal.seaborgium,
+                    'bohrium': Elements.TransitionMetal.bohrium, 'hassium': Elements.TransitionMetal.hassium,
+                    'meitnerium': Elements.TransitionMetal.meitnerium,
+                    'darmstadtium': Elements.TransitionMetal.darmstadtium,
+                    'roentgenium': Elements.TransitionMetal.roentgenium,
+                    'copernicium': Elements.TransitionMetal.copernicium}
                     #Add locations of Elements in the inner and outer transition metals
 
 elementSymbol = {'He': elementLocations['helium'], 'Li': elementLocations['lithium'],
