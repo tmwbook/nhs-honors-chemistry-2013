@@ -64,7 +64,3 @@ elementSymbol = {'He': elementLocations['helium'], 'Li': elementLocations['lithi
                  'Br': elementLocations['bromine'], 'I': elementLocations['iodine'], 'At': elementLocations['astatine'],
                  'Ne': elementLocations['neon'], 'Ar': elementLocations['argon'], 'Kr': elementLocations['krypton'],
                  'Xe': elementLocations['xenon']}
-i = 0
-for key in elementLocations:
-    i += 1
-print i
