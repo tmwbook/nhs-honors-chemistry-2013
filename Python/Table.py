@@ -54,7 +54,7 @@ elementLocations = {'hydrogen': Elements.Hydrogen, 'lithium': Elements.Metal.lit
                     'copernicium': Elements.TransitionMetal.copernicium}
                     #Add locations of Elements in the inner and outer transition metals
 
-elementSymbol = {'He': elementLocations['helium'], 'Li': elementLocations['lithium'],
+elementSymbol = {'H': elementLocations['hydrogen'], 'He': elementLocations['helium'], 'Li': elementLocations['lithium'],
                  'Be': elementLocations['beryllium'], 'N': elementLocations['nitrogen'],
                  'O': elementLocations['oxygen'],
                  'Na': elementLocations['sodium'], 'Mg': elementLocations['magnesium'],
@@ -63,4 +63,24 @@ elementSymbol = {'He': elementLocations['helium'], 'Li': elementLocations['lithi
                  'F': elementLocations['fluorine'], 'Cl': elementLocations['chlorine'],
                  'Br': elementLocations['bromine'], 'I': elementLocations['iodine'], 'At': elementLocations['astatine'],
                  'Ne': elementLocations['neon'], 'Ar': elementLocations['argon'], 'Kr': elementLocations['krypton'],
-                 'Xe': elementLocations['xenon']}
+                 'Xe': elementLocations['xenon'],
+                 #transition metals
+                 'Sc': elementLocations['scandium'], 'Ti': elementLocations['titanium'],
+                 'V': elementLocations['vanadium'], 'Cr': elementLocations['chromium'],
+                 'Mn': elementLocations['manganese'], 'Fe': elementLocations['iron'],
+                 'Co': elementLocations['cobalt'], 'Ni': elementLocations['nickel'],
+                 'Cu': elementLocations['copper'], 'Zn': elementLocations['zinc'],
+                 'Y': elementLocations['yttrium'], 'Zr': elementLocations['zirconium'],
+                 'Nb': elementLocations['niobium'], 'Mo': elementLocations['molybdenum'],
+                 'Tc': elementLocations['technetium'], 'Ru': elementLocations['ruthenium'],
+                 'Rh': elementLocations['rhodium'], 'Pd': elementLocations['palladium'],
+                 'Ag': elementLocations['silver'], 'Cd': elementLocations['cadmium'],
+                 'Hf': elementLocations['hafnium'], 'Ta': elementLocations['tantalum'],
+                 'W': elementLocations['tungsten'], 'Re': elementLocations['rhenium'],
+                 'Os': elementLocations['osmium'], 'Ir': elementLocations['iridium'],
+                 'Pt': elementLocations['platinum'], 'Au': elementLocations['gold'],
+                 'Hg': elementLocations['mercury'], 'Rf': elementLocations['rutherfordium'],
+                 'Db': elementLocations['dubnium'], 'Sg': elementLocations['seaborgium'],
+                 'Bh': elementLocations['bohrium'], 'Hs': elementLocations['hassium'],
+                 'Mt': elementLocations['meitnerium'], 'Ds':elementLocations['darmstadtium'],
+                 'Rg': elementLocations['roentgenium'], 'Cn': elementLocations['copernicium']}
