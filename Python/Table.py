@@ -8,6 +8,8 @@ import Elements.Metal
 import Elements.NonMetal
 import Elements.Hydrogen
 import Elements.TransitionMetal
+import Elements.Lanthanide
+import Elements.Actinide
 
 NUMBER_OF_ELEMENTS = 118
 
@@ -52,25 +54,25 @@ elementLocations = {'hydrogen': Elements.Hydrogen, 'lithium': Elements.Metal.lit
                     'darmstadtium': Elements.TransitionMetal.darmstadtium,
                     'roentgenium': Elements.TransitionMetal.roentgenium,
                     'copernicium': Elements.TransitionMetal.copernicium,
-                    #Add locations of Elements in the inner and outer transition metals
                     #Lanthanoid locations
-                    'lanthanum': Elements.Lanthanoids.lanthanum,'cerium': Elements.Lanthanoids.cerium, 
-                    'praseodymium': Elements.Lanthanoids.praseodymium, 'neodymium': Elements.Lanthanoids.neodymium, 
-                    'neodymium': Elements.Lanthanoids.neodymium, 'promethium': Elements.Lantthanoids.promethium, 
-                    'samarium': Elements.Lanthanoids.samarium, 'europium': Elements.Lanthanoids.europium,
-                    'gadolinnium': Elements.Lanthanoids.gadolinium, 'terbium': Elements.Lanthanoids.terbium, 
-                    'dysprosium': Elements.Lanthanoids.dysprosium, 'holmium': Elements.Lanthanoids.holmium,
-                    'erbium': Elements.Lanthanoids.erbium, 'thulium': Elements.Lanthanoids.thulium, 
-                    'ytterbium': Elements.Lanthanoids.ytterbium, 'lutetium': Elements.Lanthanoids.lutetium,
-                    #Actinoid locations
-                    'actinium': Elements.Actinoids.actinium, 'thorium': Elements.Actinoids.throium,
-                    'protactinium': Elements.Actinoids.protactinium, 'uranium': Elements.Actinoids.uranium,
-                    'neptunium': Elements.Actinoids.neptunium, 'plutonium': Elements.Actinoids.plutonium,
-                    'americium': Elements.Actinoids.americium, 'curium': Elements.Actinoids.curium, 
-                    'berkelium': Elements.Actinoids.berkelium, 'californium': Elements.Actinoids.californium,
-                    'einsteinium': Elements.Actinoids.einsteinium, 'fermium': Elements.Actinoids.fermium, 
-                    'mendelevium': Elements.Actinoids.mendelevium, 'nobelium': Elements.Actinoids.nobelium,
-                    'lawrencium': Elements.Actinoids.lawrencium}
+                    'lanthanum': Elements.Lanthanide.lanthanum, 'cerium': Elements.Lanthanide.cerium,
+                    'praseodymium': Elements.Lanthanide.praseodymium, 'neodymium': Elements.Lanthanide.neodymium,
+                    'neodymium': Elements.Lanthanide.neodymium, 'promethium': Elements.Lanthanide.promethium,
+                    'samarium': Elements.Lanthanide.samarium, 'europium': Elements.Lanthanide.europium,
+                    'gadolinium': Elements.Lanthanide.gadolinium, 'terbium': Elements.Lanthanide.terbium,
+                    'dysprosium': Elements.Lanthanide.dysprosium, 'holmium': Elements.Lanthanide.holmium,
+                    'erbium': Elements.Lanthanide.erbium, 'thulium': Elements.Lanthanide.thulium,
+                    'ytterbium': Elements.Lanthanide.ytterbium, 'lutetium': Elements.Lanthanide.lutetium,
+                    #Actinide locations
+                    'actinium': Elements.Actinide.actinium, 'thorium': Elements.Actinide.thorium,
+                    'protactinium': Elements.Actinide.protactinium, 'uranium': Elements.Actinide.uranium,
+                    'neptunium': Elements.Actinide.neptunium, 'plutonium': Elements.Actinide.plutonium,
+                    'americium': Elements.Actinide.americium, 'curium': Elements.Actinide.curium, 
+                    'berkelium': Elements.Actinide.berkelium, 'californium': Elements.Actinide.californium,
+                    'einsteinium': Elements.Actinide.einsteinium, 'fermium': Elements.Actinide.fermium, 
+                    'mendelevium': Elements.Actinide.mendelevium, 'nobelium': Elements.Actinide.nobelium,
+                    'lawrencium': Elements.Actinide.lawrencium}
+
 elementSymbol = {'H': elementLocations['hydrogen'], 'He': elementLocations['helium'], 'Li': elementLocations['lithium'],
                  'Be': elementLocations['beryllium'], 'N': elementLocations['nitrogen'],
                  'O': elementLocations['oxygen'],
@@ -101,7 +103,7 @@ elementSymbol = {'H': elementLocations['hydrogen'], 'He': elementLocations['heli
                  'Bh': elementLocations['bohrium'], 'Hs': elementLocations['hassium'],
                  'Mt': elementLocations['meitnerium'], 'Ds': elementLocations['darmstadtium'],
                  'Rg': elementLocations['roentgenium'], 'Cn': elementLocations['copernicium'],
-                  #Lanthanoids
+                 #Lanthanides
                  'La': elementLocations['lanthanum'], 'Ce': elementLocations['cerium'],
                  'Pr': elementLocations['praseodymium'], 'Nd': elementLocations['neodymium'],
                  'Pm': elementLocations['promethium'], 'Sm': elementLocations['samarium'],
@@ -110,12 +112,17 @@ elementSymbol = {'H': elementLocations['hydrogen'], 'He': elementLocations['heli
                  'Ho': elementLocations['holmium'], 'Er': elementLocations['erbium'], 
                  'Tm': elementLocations['thulium'], 'Yb': elementLocations['ytterbium'],
                  'Lu': elementLocations['lutetium'],
-                 #Actinoids
+                 #Actinide
                  'Ac': elementLocations['actinium'], 'Th': elementLocations['thorium'],
                  'Pa': elementLocations['protactinium'], 'U': elementLocations['uranium'],
                  'Np': elementLocations['neptunium'], 'Pu': elementLocations['plutonium'],
                  'Am': elementLocations['americium'], 'Cm': elementLocations['curium'], 
                  'Bk': elementLocations['berkelium'], 'Cf': elementLocations['californium'],
                  'Es': elementLocations['einsteinium'], 'Fm': elementLocations['fermium'],
-                 'Md': elementLocations['mendeleviun'], 'No': elementLocations['nobelium'],
+                 'Md': elementLocations['mendelevium'], 'No': elementLocations['nobelium'],
                  'Lr': elementLocations['lawrencium']}
+
+i = 0
+for x in elementLocations:
+    i+= 1
+print i

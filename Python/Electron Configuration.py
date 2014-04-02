@@ -4,7 +4,7 @@ Created on 12 28, 14
 @author: Thomas
 '''
 import Table
-import string
+
 #Noble Gasses for short hand
 He = Table.elementSymbol["He"]
 Ne = Table.elementSymbol["Ne"]

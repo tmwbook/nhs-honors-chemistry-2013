@@ -65,3 +65,15 @@ argon = NobleGas(18, 39.948)
 krypton = NobleGas(36, 83.8)
 xenon = NobleGas(54, 131.29)
 radon = NobleGas(86, 222)
+
+class Extras():
+    def __init__(self, atomicNumber, atomicMass):
+        self.atomicNumber = atomicNumber
+        self.atomicMass = atomicMass
+
+ununtrium = Extras(113, 284)
+flerovium = Extras(114, 289)
+ununpentium = Extras(115, 288)
+livemorium = Extras(116, 293)
+ununsptium = Extras(117, 294)
+ununoctium = Extras(118, 294)#may move this to nobel gas
