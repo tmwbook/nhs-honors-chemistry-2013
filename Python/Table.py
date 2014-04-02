@@ -57,7 +57,7 @@ elementLocations = {'hydrogen': Elements.Hydrogen, 'lithium': Elements.Metal.lit
                     'lanthanum': Elements.Lanthanoids.lanthanum,'cerium': Elements.Lanthanoids.cerium, 
                     'praseodymium': Elements.Lanthanoids.praseodymium, 'neodymium': Elements.Lanthanoids.neodymium, 
                     'neodymium': Elements.Lanthanoids.neodymium, 'promethium': Elements.Lantthanoids.promethium, 
-                    'samarium': Elements.Lanthanoids.samarium 'europium': Elements.Lanthanoids.europium,
+                    'samarium': Elements.Lanthanoids.samarium, 'europium': Elements.Lanthanoids.europium,
                     'gadolinnium': Elements.Lanthanoids.gadolinium, 'terbium': Elements.Lanthanoids.terbium, 
                     'dysprosium': Elements.Lanthanoids.dysprosium, 'holmium': Elements.Lanthanoids.holmium,
                     'erbium': Elements.Lanthanoids.erbium, 'thulium': Elements.Lanthanoids.thulium, 
@@ -100,22 +100,22 @@ elementSymbol = {'H': elementLocations['hydrogen'], 'He': elementLocations['heli
                  'Db': elementLocations['dubnium'], 'Sg': elementLocations['seaborgium'],
                  'Bh': elementLocations['bohrium'], 'Hs': elementLocations['hassium'],
                  'Mt': elementLocations['meitnerium'], 'Ds': elementLocations['darmstadtium'],
-                 'Rg': elementLocations['roentgenium'], 'Cn': elementLocations['copernicium']
+                 'Rg': elementLocations['roentgenium'], 'Cn': elementLocations['copernicium'],
                   #Lanthanoids
                  'La': elementLocations['lanthanum'], 'Ce': elementLocations['cerium'],
                  'Pr': elementLocations['praseodymium'], 'Nd': elementLocations['neodymium'],
                  'Pm': elementLocations['promethium'], 'Sm': elementLocations['samarium'],
                  'Eu': elementLocations['europium'], 'Gd': elementLocations['gadolinium'],
-                 'Tb': elementLocations['terbium'], 'Dy': elementLocations['dysprosium']
+                 'Tb': elementLocations['terbium'], 'Dy': elementLocations['dysprosium'],
                  'Ho': elementLocations['holmium'], 'Er': elementLocations['erbium'], 
                  'Tm': elementLocations['thulium'], 'Yb': elementLocations['ytterbium'],
-                 'Lu': elementLocations['lutetium']
+                 'Lu': elementLocations['lutetium'],
                  #Actinoids
                  'Ac': elementLocations['actinium'], 'Th': elementLocations['thorium'],
                  'Pa': elementLocations['protactinium'], 'U': elementLocations['uranium'],
                  'Np': elementLocations['neptunium'], 'Pu': elementLocations['plutonium'],
                  'Am': elementLocations['americium'], 'Cm': elementLocations['curium'], 
                  'Bk': elementLocations['berkelium'], 'Cf': elementLocations['californium'],
-                 'Es': elementLocations['einsteinium'], 'Fm': elementLocations['fermium']
+                 'Es': elementLocations['einsteinium'], 'Fm': elementLocations['fermium'],
                  'Md': elementLocations['mendeleviun'], 'No': elementLocations['nobelium'],
                  'Lr': elementLocations['lawrencium']}
