@@ -1,5 +1,5 @@
 '''
-Created on Mon Day, Year
+Created on April 2, 2014
 
 @author: Thomas
 '''

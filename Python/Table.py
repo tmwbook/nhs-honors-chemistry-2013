@@ -17,7 +17,7 @@ singleElementsThatBondToSelf = ["Br", "N", "Cl", "H", "O", "F"]
 
 elementLocations = {'hydrogen': Elements.Hydrogen, 'lithium': Elements.Metal.lithium, 'sodium': Elements.Metal.sodium,
                     'potassium': Elements.Metal.potassium, 'rubidium': Elements.Metal.rubidium,
-                    'cesium': Elements.Metal.cesium, 'francium': Elements.Metal.francium,
+                    'caesium': Elements.Metal.caesium, 'francium': Elements.Metal.francium,
                     'beryllium': Elements.Metal.beryllium, 'magnesium': Elements.Metal.magnesium,
                     'calcium': Elements.Metal.calcium, 'strontium': Elements.Metal.strontium,
                     'barium': Elements.Metal.barium, 'radium': Elements.Metal.radium,
@@ -90,7 +90,22 @@ elementSymbol = {'H': elementLocations['hydrogen'], 'He': elementLocations['heli
                  'F': elementLocations['fluorine'], 'Cl': elementLocations['chlorine'],
                  'Br': elementLocations['bromine'], 'I': elementLocations['iodine'], 'At': elementLocations['astatine'],
                  'Ne': elementLocations['neon'], 'Ar': elementLocations['argon'], 'Kr': elementLocations['krypton'],
-                 'Xe': elementLocations['xenon'],
+                 'Xe': elementLocations['xenon'], 'Rn': elementLocations['radon'],
+                 #elements that were looked over
+                 'K': elementLocations['potassium'], 'Ca': elementLocations['calcium'],
+                 'Rb': elementLocations['rubidium'], 'Sr': elementLocations['strontium'],
+                 'Cs': elementLocations['caesium'], 'Ba': elementLocations['barium'],
+                 'Fr': elementLocations['francium'], 'Ra': elementLocations['radium'],
+                 'B': elementLocations['barium'], 'C': elementLocations['carbon'],
+                 'Al': elementLocations['aluminium'], 'Si': elementLocations['silicon'],
+                 'Ga': elementLocations['gallium'], 'Ge': elementLocations['germanium'],
+                 'In': elementLocations['indium'], 'Sn': elementLocations['tin'],
+                 'Tl': elementLocations['thallium'], 'Pb': elementLocations['lead'],
+                 'Uut': elementLocations['ununtrium'], 'Fl': elementLocations['flerovium'],
+                 'Uup': elementLocations['ununpentium'], 'Lv': elementLocations['livemorium'],
+                 'Uus': elementLocations['ununseptium'], 'Uuo': elementLocations['ununoctium'],
+                 'S': elementLocations['sulfur'], 'Se': elementLocations['selenium'],
+                 'Te': elementLocations['tellurium'], 'Po': elementLocations['polonium'],
                  #transition metals
                  'Sc': elementLocations['scandium'], 'Ti': elementLocations['titanium'],
                  'V': elementLocations['vanadium'], 'Cr': elementLocations['chromium'],
@@ -129,8 +144,3 @@ elementSymbol = {'H': elementLocations['hydrogen'], 'He': elementLocations['heli
                  'Es': elementLocations['einsteinium'], 'Fm': elementLocations['fermium'],
                  'Md': elementLocations['mendelevium'], 'No': elementLocations['nobelium'],
                  'Lr': elementLocations['lawrencium']}
-
-i = 0
-for x in elementLocations:
-    i+= 1
-print i
