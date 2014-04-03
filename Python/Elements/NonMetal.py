@@ -71,9 +71,21 @@ class Extras():
         self.atomicNumber = atomicNumber
         self.atomicMass = atomicMass
 
+boron = Extras(5, 10.81)
+aluminium = Extras(13, 26.981)
+gallium = Extras(31, 69.723)
+indium = Extras(49, 114.818)
+thallium = Extras(81, 204.38)
+
+carbon = Extras(6, 12.011)
+silicon = Extras(14, 28.085)
+germanium = Extras(32, 72.63)
+tin = Extras(50, 118.710)
+lead = Extras(82, 207.2)
+
 ununtrium = Extras(113, 284)
 flerovium = Extras(114, 289)
 ununpentium = Extras(115, 288)
 livemorium = Extras(116, 293)
-ununsptium = Extras(117, 294)
+ununseptium = Extras(117, 294)
 ununoctium = Extras(118, 294)#may move this to nobel gas
