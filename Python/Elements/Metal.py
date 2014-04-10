@@ -12,17 +12,18 @@ class Alkali():
 
     CHARGE = -1
 
-    def __init__(self, atomicNumber, atomicMass):
+    def __init__(self, atomicNumber, atomicMass, lastElectConf):
         self.atomicNumber = atomicNumber
         self.atomicMass = atomicMass
+        self.lastElectConf = lastElectConf
 
 
-lithium = Alkali(3, 6.941)
-sodium = Alkali(11, 22.98977)
-potassium = Alkali(19, 29.0983)
-rubidium = Alkali(37, 85.4678)
-caesium = Alkali(55, 137.33)
-francium = Alkali(87, 223)
+lithium = Alkali(3, 6.941, [" 2s^", "1"])
+sodium = Alkali(11, 22.98977, [" 3s^", "1"])
+potassium = Alkali(19, 29.0983, [" 4s^", "1"])
+rubidium = Alkali(37, 85.4678, [" 5s^", "1"])
+caesium = Alkali(55, 137.33, [" 6s^", "1"])
+francium = Alkali(87, 223, [" 7s^", "1"])
 
 class AlkalineEarthMetal():
 

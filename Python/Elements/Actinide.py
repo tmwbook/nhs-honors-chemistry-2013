@@ -11,6 +11,7 @@ class Actinide(object):
     def __init__(self, atomicNumber, atomicMass):
         self.atomicNumber = atomicNumber
         self.atomicMass = atomicMass
+        #self.lastElectConf = lastElectConf
 
 actinium = Actinide(89, 227)
 thorium = Actinide(90, 232.03)

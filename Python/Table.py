@@ -15,7 +15,8 @@ NUMBER_OF_ELEMENTS = 118
 
 singleElementsThatBondToSelf = ["Br", "N", "Cl", "H", "O", "F"]
 
-elementLocations = {'hydrogen': Elements.Hydrogen, 'lithium': Elements.Metal.lithium, 'sodium': Elements.Metal.sodium,
+elementLocations = {'hydrogen': Elements.Hydrogen.hydrogen, 'lithium': Elements.Metal.lithium,
+                    'sodium': Elements.Metal.sodium,
                     'potassium': Elements.Metal.potassium, 'rubidium': Elements.Metal.rubidium,
                     'caesium': Elements.Metal.caesium, 'francium': Elements.Metal.francium,
                     'beryllium': Elements.Metal.beryllium, 'magnesium': Elements.Metal.magnesium,
@@ -132,14 +133,14 @@ elementSymbol = {'H': elementLocations['hydrogen'], 'He': elementLocations['heli
                  'Pm': elementLocations['promethium'], 'Sm': elementLocations['samarium'],
                  'Eu': elementLocations['europium'], 'Gd': elementLocations['gadolinium'],
                  'Tb': elementLocations['terbium'], 'Dy': elementLocations['dysprosium'],
-                 'Ho': elementLocations['holmium'], 'Er': elementLocations['erbium'], 
+                 'Ho': elementLocations['holmium'], 'Er': elementLocations['erbium'],
                  'Tm': elementLocations['thulium'], 'Yb': elementLocations['ytterbium'],
                  'Lu': elementLocations['lutetium'],
                  #Actinide
                  'Ac': elementLocations['actinium'], 'Th': elementLocations['thorium'],
                  'Pa': elementLocations['protactinium'], 'U': elementLocations['uranium'],
                  'Np': elementLocations['neptunium'], 'Pu': elementLocations['plutonium'],
-                 'Am': elementLocations['americium'], 'Cm': elementLocations['curium'], 
+                 'Am': elementLocations['americium'], 'Cm': elementLocations['curium'],
                  'Bk': elementLocations['berkelium'], 'Cf': elementLocations['californium'],
                  'Es': elementLocations['einsteinium'], 'Fm': elementLocations['fermium'],
                  'Md': elementLocations['mendelevium'], 'No': elementLocations['nobelium'],
