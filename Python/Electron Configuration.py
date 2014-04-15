@@ -4,8 +4,7 @@ Created on 12 28, 14
 @author: Thomas
 '''
 """
-This script is a really bad hack job right now,
-looking to get rid of a lot of the lists
+looking to get rid of a lot of the lists, seems like their should be a better way
 """
 import Table
  
@@ -39,11 +38,8 @@ nobleGassesStrings = ["He", "Ne", "Ar", "Kr", "Xe"]
 nobleGassesConfigurations = [HeConfiguration, NeConfiguration, ArConfiguration, KrConfiguration, XeConfiguration]
 nobleGasListElements = [HeListElements, NeListElements, ArListElements, KrListElements, XeListElements]
 
-"""
-Shorthand not finished, along with the elements needing their last two list elements
-"""
 
-
+#should split up this function
 def shortHandElectronConfiguration(element):
     global nobleGasses
     elementNumber = Table.elementSymbol[element].atomicNumber
@@ -52,13 +48,8 @@ def shortHandElectronConfiguration(element):
     for gas in nobleGasses:
         if not elementNumber >= gas.atomicNumber:
             gasForShortHand = "[" + nobleGassesStrings[i - 1] + "]"
-            gasListElements = nobleGasListElements[i]
-            #loop through until you reach element.Configuration[0]
             elementConf = findElectronConfiguration(element)
             strippingFrontOfConf = len(nobleGassesConfigurations[i - 1])
-            #for x in elementConf:
-                #if x not in nobleGassesConfigurations[i - 1]:
-                    #elementShortHand += "".join(x)
             fullShortHand = gasForShortHand + elementConf[strippingFrontOfConf:]
             return fullShortHand
         else:
@@ -74,8 +65,3 @@ def findElectronConfiguration(element):
         else:
             elementConfiguration += part
     return elementConfiguration
-
-print nobleGassesConfigurations[2]
-print nobleGassesStrings[2]
-print findElectronConfiguration("K")
-print shortHandElectronConfiguration("K")
