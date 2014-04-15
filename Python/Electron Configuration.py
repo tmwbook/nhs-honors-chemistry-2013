@@ -46,14 +46,21 @@ Shorthand not finished, along with the elements needing their last two list elem
 
 def shortHandElectronConfiguration(element):
     global nobleGasses
-    element = Table.elementSymbol[element].atomicNumber
+    elementNumber = Table.elementSymbol[element].atomicNumber
     #i is used to keep track of which noble gas to use for shorthand
     i = 0
     for gas in nobleGasses:
-        if not element >= gas.atomicNumber:
-            gasForShortHand = "[" + nobleGassesStrings[i] + "]"
+        if not elementNumber >= gas.atomicNumber:
+            gasForShortHand = "[" + nobleGassesStrings[i - 1] + "]"
             gasListElements = nobleGasListElements[i]
             #loop through until you reach element.Configuration[0]
+            elementConf = findElectronConfiguration(element)
+            strippingFrontOfConf = len(nobleGassesConfigurations[i - 1])
+            #for x in elementConf:
+                #if x not in nobleGassesConfigurations[i - 1]:
+                    #elementShortHand += "".join(x)
+            fullShortHand = gasForShortHand + elementConf[strippingFrontOfConf:]
+            return fullShortHand
         else:
             i += 1
  
@@ -68,4 +75,7 @@ def findElectronConfiguration(element):
             elementConfiguration += part
     return elementConfiguration
 
+print nobleGassesConfigurations[2]
+print nobleGassesStrings[2]
 print findElectronConfiguration("K")
+print shortHandElectronConfiguration("K")
