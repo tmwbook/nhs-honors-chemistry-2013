@@ -84,7 +84,7 @@ def mainProgram():
 
 def runAgain():
     reRunOption = raw_input('Would you like to solve another problem? (y/n)')
-    if reRunOption == 'y' or reRunOption == 'Y':
+    if reRunOption.lower() == 'y':
         mainProgram()
     else:
         exit()
