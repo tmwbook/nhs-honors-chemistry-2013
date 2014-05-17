@@ -10,9 +10,10 @@ Created on March 29, 2014
 class Hydrogen(object):
 
 
-    def __init__(self, atomicNumber, atomicMass):
+    def __init__(self, atomicNumber, atomicMass, lastElectConf):
         self.atomicNumber = atomicNumber
         self.atomicMass = atomicMass
+        self.lastElectConf = lastElectConf
 
 
-hydrogen = Hydrogen(1, 1.00794)
+hydrogen = Hydrogen(1, 1.00794, [" 1s^", "1"])

@@ -45,6 +45,8 @@ def shortHandElectronConfiguration(element):
     elementNumber = Table.elementSymbol[element].atomicNumber
     #i is used to keep track of which noble gas to use for shorthand
     i = 0
+    if element.lower() == "h":
+        return "1s^1"
     for gas in nobleGasses:
         if not elementNumber >= gas.atomicNumber:
             gasForShortHand = "[" + nobleGassesStrings[i - 1] + "]"
@@ -59,7 +61,10 @@ def shortHandElectronConfiguration(element):
 def findElectronConfiguration(element):
     elementConfiguration = ""
     for part in electronConfiguration:
-        if part == Table.elementSymbol[element].lastElectConf[0]:
+        if element.lower() == "h":
+            elementConfiguration = '1s^1'
+            break
+        elif part == Table.elementSymbol[element].lastElectConf[0]:
             elementConfiguration += "".join(x for x in Table.elementSymbol[element].lastElectConf if x not in "[]")
             break
         else:
