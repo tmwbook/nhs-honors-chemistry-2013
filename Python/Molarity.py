@@ -44,10 +44,11 @@ def typeOfProblem():
     else:
         print str(calculateMoles()) + " mol"
 
-while True:
-    typeOfProblem()
-    option = raw_input('Do you need to solve another problem?(y/n) ')
-    if option.lower() == "y":
-        continue
-    else:
-        break
+if __name__ == "__main__":
+    while True:
+        typeOfProblem()
+        option = raw_input('Do you need to solve another problem?(y/n) ')
+        if option.lower() == "y":
+            continue
+        else:
+            break
