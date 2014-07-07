@@ -7,15 +7,13 @@
 def calculateMolarity():
     molesSolute = float(raw_input('How many moles of the solute do you have?' ))
     litersSolvent = float(raw_input('How many liters of the solvent do you have? '))
-    molarity = molesSolute / litersSolvent
-    return molarity
+    return float(molesSolute) / float(litersSolvent)
 
 
 def calculateLiters():
-    molarity = int(raw_input('What is the molarity of the solution? '))
-    molesSolute = int(raw_input('How many moles are there dissolved in the solute? '))
-    litersSolvent = molesSolute / molarity
-    return litersSolvent
+    molarity = float(raw_input('What is the molarity of the solution? '))
+    molesSolute = float(raw_input('How many moles are there dissolved in the solute? '))
+    return molesSolute / molarity
 
 
 def calculateMoles():

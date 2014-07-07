@@ -44,7 +44,7 @@ elementLocations = {'hydrogen': Elements.Hydrogen.hydrogen, 'lithium': Elements.
                     #Transition Metals
                     'scandium': Elements.TransitionMetal.scandium, 'titanium': Elements.TransitionMetal.titanium,
                     'vanadium': Elements.TransitionMetal.vanadium, 'chromium': Elements.TransitionMetal.chromium,
-                    'manganese': Elements.TransitionMetal.manganese, 'iron': Elements.TransitionMetal,
+                    'manganese': Elements.TransitionMetal.manganese, 'iron': Elements.TransitionMetal.iron,
                     'cobalt': Elements.TransitionMetal.cobalt, 'nickel': Elements.TransitionMetal.nickel,
                     'copper': Elements.TransitionMetal.copper, 'zinc': Elements.TransitionMetal.zinc,
                     'yttrium': Elements.TransitionMetal.yttrium, 'zirconium': Elements.TransitionMetal.zirconium,
