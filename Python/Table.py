@@ -52,7 +52,7 @@ elementLocations = {'hydrogen': Elements.Hydrogen.hydrogen, 'lithium': Elements.
                     'technetium': Elements.TransitionMetal.technetium, 'ruthenium': Elements.TransitionMetal.ruthenium,
                     'rhodium': Elements.TransitionMetal.rhodium, 'palladium': Elements.TransitionMetal.palladium,
                     'silver': Elements.TransitionMetal.silver, 'cadmium': Elements.TransitionMetal.cadmium,
-                    'hafnium': Elements.TransitionMetal.hafnium, 'tantalum': Elements.TransitionMetal.hafnium,
+                    'hafnium': Elements.TransitionMetal.hafnium, 'tantalum': Elements.TransitionMetal.tantalum,
                     'tungsten': Elements.TransitionMetal.tungsten, 'rhenium': Elements.TransitionMetal.rhenium,
                     'osmium': Elements.TransitionMetal.osmium, 'iridium': Elements.TransitionMetal.iridium,
                     'platinum': Elements.TransitionMetal.platinum, 'gold': Elements.TransitionMetal.gold,
